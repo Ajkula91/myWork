@@ -1,3 +1,3 @@
-# mywork
-Doing all the courses and tutorials I can find
-weee
+# myWork
+
+HTML / CSS / JS
