@@ -1,0 +1,104 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #092f6e;
+	color: fff;
+}
+
+#crete {
+	font-size: 16px;
+	font-family: sans-serif;
+	width: 600px;
+	margin: 50px auto;
+	border: 1px solid rgba(255, 255, 255, .2);
+	background: #092f6e url("crete.png") no-repeat center bottom;
+	min-height: 450px;
+}
+
+#crete .heading {
+	background-color: rgba(0,0,0, .5);
+	padding: 25px 0px 2px 0px;
+	margin: 0px 0px 60px 0px;
+}
+
+#crete h1 {
+	font-size: 4em;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 300;
+	line-height: 70px;
+	margin: 0px 0px 0px -5px;
+	padding: 0;
+	text-align:center;
+}
+
+#crete h2 {
+	font-size: 1em;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 700;
+	line-height: 18px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	letter-spacing: 9px;
+}
+
+#crete .my-countdown .countdown-row {
+	display: block;
+	text-align: center;
+	margin-top: 258px;
+	background-color: rgba(0,0,0, .2);
+}
+
+#crete .my-countdown .countdown-section {
+	display:inline-block;
+	width: 150px;
+}
+
+#crete .my-countdown .countdown-amount {
+	display: block;
+	color:#fff;
+	font-size: 0.9em;
+	line-height: 55px;
+}
+
+#crete .my-countdown .countdown-period {
+	display: block;
+	color: #fff;
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+@media screen and (max-width: 525px) {
+	#crete {
+	font-size: 12px;
+	font-family: sans-serif;
+	width: 300px;
+	min-height: 300px;
+}
+
+	#crete h1 {
+		line-height: 20px;
+		font-size: 1em;
+		letter-spacing: 8px;
+}
+	#crete h2 {
+		line-height: 15px;
+		letter-spacing: 7px;
+		margin-bottom: 5px;
+}
+	#crete .my-countdown .countdown-section {
+		width: 60px;
+		font-size: 0.5em;
+		letter-spacing: 1px;
+}
+	#crete .my-countdown .countdown-period {
+	display: block;
+	color: #fff;
+	font-size: 10px;
+	text-transform: uppercase;
+	letter-spacing: 0px;
+}
+

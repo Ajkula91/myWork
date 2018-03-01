@@ -55,14 +55,18 @@ Primary style
   
   -------------------------------- */
   header {
-    height: 200px;
-    line-height: 200px;
     text-align: center;
     background: #192436;
+    padding: 80px 5px;
   }
   header h1 {
     color: #4bbcf3;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
+  }
+  header h3 {
+    color: #4bbcf3;
+    font-size: 1.2rem;
+    padding: 10px 5px;
   }
   @media only screen and (min-width: 1170px) {
     header {
@@ -79,6 +83,16 @@ Primary style
     margin-top: 2em;
     margin-bottom: 2em;
   }
+
+  
+
+  img {
+    max-width: 200px;
+    float: right;
+   }
+
+ 
+  
   #cd-timeline::before {
     /* this is the vertical line */
     content: '';
@@ -98,6 +112,17 @@ Primary style
       left: 50%;
       margin-left: -2px;
     }
+
+    img {
+      max-width: 200px;
+      float: right;
+     }
+
+     .left {
+       max-width: 200px;
+       float: left;
+       margin-right: 15px;
+     }
   }
   
   .cd-timeline-block {
@@ -261,7 +286,7 @@ Primary style
     line-height: 1.6;
   }
   .cd-timeline-content .cd-read-more {
-    float: right;
+    float: left;
     padding: .8em 1em;
     background: #acb7c0;
     color: white;
@@ -273,7 +298,9 @@ Primary style
   .cd-timeline-content .cd-date {
     float: left;
     padding: .8em 0;
-    opacity: .7;
+    opacity: .9;
+    padding-left: 20px;
+    font-weight: bold;
   }
   .cd-timeline-content::before {
     content: '';
